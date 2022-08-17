@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form onsubmit="go()" class="forminput">
+        <div class="logohand">
+          <img class="logo" src="/jogo-para-celular.png" style="width: 110%" />
+        </div>
+        <div class="item">
+          <label for="field1">usuário:</label>
+          <input
+            id="field1"
+            class="nameright"
+            type="text"
+            name="name"
+            placeholder="seu nome"
+            required
+          />
+        </div>
+        <div class="item">
+          <label for="field2">email:</label>
+          <input
+            id="field2"
+            class="emailrifht"
+            type="email"
+            name="e-mail"
+            required
+            placeholder="seu e-mail"
+          />
+        </div>
+        <div class="item">
+          <label for="field3">senha:</label>
+          <input
+            id="field3"
+            class="passright"
+            type="password"
+            name="pass"
+            required
+            placeholder="sua senha"
+          />
+        </div>
+        <div class="btn">
+          <button type="submit">Entrar</button>
+        </div>
+      </form>
+    </div>
+    <!--link javascript-->
+    <script src="/java.js"></script>
+  </body>
+</html>
